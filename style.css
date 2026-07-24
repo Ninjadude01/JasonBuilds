@@ -1,0 +1,9 @@
+.panel{
+    height: 100px;
+    width: vw;
+    background-color: lightblue;
+}
+
+img{max-width: 100%;
+    height: auto;
+}

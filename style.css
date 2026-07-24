@@ -1,9 +1,55 @@
-.panel{
+.panel {
     height: 100px;
-    width: vw;
+    width: 100%;
     background-color: lightblue;
 }
 
-img{max-width: 100%;
+img {
+    max-width: 100%;
     height: auto;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 0px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+.project-image2 {
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 89%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 0px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+body {
+    background-color: lightblue;
 }

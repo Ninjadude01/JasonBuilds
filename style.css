@@ -1,13 +1,29 @@
+@font-face {
+    font-family:CoolFont;
+    src: url(Assets/Motivate.otf);
+}
+
 .panel {
-    height: 100px;
+    height: auto;
     width: 100%;
-    background-color: lightblue;
+    background-color: rgb(1, 189, 251);
+    font-family: 'CoolFont', sans-serif;
+    padding: 1%;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+nav {
+    white-space: pre-wrap;
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
 
 .project-grid {
     display: flex;
@@ -17,6 +33,7 @@ img {
 }
 
 .project-card {
+    white-space: pre-wrap;
     flex: 1 1 280px;
     display: flex;
     flex-direction: column;
@@ -34,22 +51,7 @@ img {
     border-radius: 10px;
 }
 
-
-.project-image2 {
-    margin-left:auto;
-    margin-right:auto;
-
-    width: 89%;
-    max-width: 500px;
-    height: auto;
-    margin-top: 0px;
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10px;
-}
-
-
 body {
+    font-family: 'CoolFont', sans-serif;
     background-color: lightblue;
 }

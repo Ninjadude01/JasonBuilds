@@ -3,6 +3,11 @@
     src: url(Assets/Lato-Regular.ttf);
 }
 
+body {
+    font-family: 'CoolFont', sans-serif;
+    background-color: lightblue;
+}
+
 .banner {
     height: auto;
     background-color: rgb(1, 189, 251);
@@ -15,21 +20,50 @@
     display:flex;
     justify-content: space-around;
     background-color: rgb(0, 176, 235);
+    padding: 0%;
 }
 
-.proj {
+.ALLproj {
     font-family: 'CoolFont', sans-serif;
     display:flex;
     justify-content: space-around;
 }
 
+.proj {
+    width: 30%;
+}
+
 
 .img {
-    width: 30%;
+    width: 100%;
 } 
 
 
-body {
+
+.socials {
     font-family: 'CoolFont', sans-serif;
-    background-color: lightblue;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(1, 189, 251);
+    padding: 0%;
+}
+
+/*link color*/
+a:link {
+  color: #1a73e8;
+}
+
+/* Visited link */
+a:visited {
+  color: #6a0dad;
+}
+
+/* Mouse over link */
+a:hover {
+  color: #03fb45;
+}
+
+/* Selected/clicked link */
+a:active {
+  color: #008000;
 }

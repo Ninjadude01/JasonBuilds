@@ -6,6 +6,7 @@
 body {
     font-family: 'CoolFont', sans-serif;
     background-color: lightblue;
+    padding:2%;
 }
 
 .banner {
@@ -38,14 +39,30 @@ body {
     width: 100%;
 } 
 
-
-
 .socials {
     font-family: 'CoolFont', sans-serif;
     display:flex;
     justify-content: space-around;
     background-color: rgb(1, 189, 251);
     padding: 0%;
+}
+
+.song {
+    font-family: 'CoolFont', sans-serif;
+    display:flex;
+    justify-content: space-around;
+    padding: 0%;
+
+}
+
+.PERimg {
+    width: 250px;
+    height: auto;
+    display: flex;
+    border: solid 5px #000;
+    border-radius: 10px;
+    display: block; 
+    margin: 0 auto;
 }
 
 /*link color*/

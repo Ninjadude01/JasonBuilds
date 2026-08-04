@@ -1,64 +1,60 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason's Personal Website</title>
 </head>
 
-    <body>
-        <header>
-            
-        <div class="panel"> 
-        <h1><center>Jason's Personal Website!</center></h1>
-        </div>
+<body>
+    <header> 
+    <!-- Title Text + Banner -->   
+    <div class="banner"> 
+    <h1><center>Jason's Personal Website</center></h1>
+    </div>
 
-        <nav>
-            <a href="#about"><h1><center>About</center></h1></a>
-            <a href="#projects"><h1><center>Projects</center></h1></a>
-            <a href="#socials"><h1><center>Socials</center></h1></a>
+    <!-- Navigation Bar -->
+    <div class="navbar">  
+        <a href="#about"><h2><center>About Me</center></h2></a>
+        <a href="#projects"><h2><center>Projects</center></h2></a>
+        <a href="#socials"><h2><center>Socials</center></h2></a>
+    </div>
 
-        </nav>
-        
-        </header>
 
-            <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! My name is Jason, a 17 year old who loves working with electronics, working out, and playing video games.</p>
+    <!-- About Me Section -->
+    <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Jason, a 17 year old who loves working with electronics, attending hackathons, and playing video games. I am familiar with C++, Java, HTML, and CSS. I also know how to use KiCad and Fusion 360.</p>
+    </section>
+
+     <!-- Project Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some projects I am working on:</p>
+                <section id="proj"> 
+                <a href="https://github.com/Ninjadude01/Ninjaboard65"><center>Ninjaboard65</center></a>
+                <p>A 65% custom keyboard with a knob! Features include hot-swappable gateron yellow switches, pbt double-shot keycaps, and a 3d printed case + plate.</p>
+                <img src="Images/Ninjaboard65-ZINE(irl).png" alt="Ninjaboard65" class="img">
+
+                <a href="https://github.com/Ninjadude01/NinjaArm"><center>NinjaArm</center></a>
+                <p>NinjaArm is a custom robotic arm with 3 degrees of freedom + a claw. It uses an Arduino Uno along with a servo board, 3 servos, 1 micro servo, and 4 potentiometers to control rotation.</p>
+                    <img src="Images/NinjaArm-Full.png" alt="NinjaArm" class="img">
+                    <img src="Images/Bottom-view.png" alt="Bottom View" class="img">
+
+                <a href="https://github.com/Ninjadude01/Ninjapad-V2"><center>NinjapadV2</center></a>
+                <p>The Ninjapad-V2 is a wireless macropad with 6 switches, a customizable knob, and a 0.91" oled display! It is fully hot-swappable, uses a 3.7V 600mAh rechargable lithium battery, and has mini-leds.</p>
+                <img src="Images/NinjapadV2-Zine.png" alt="NinjapadV2" class="img">
+                </section>
             </section>
-        
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Here are some projects I have made (The last two are currently being built):</p>
-            <div class="project-grid">
-                <div class="project-card">
-                    <a href="https://github.com/Ninjadude01/Ninjaboard65"><center>Ninjaboard65</center></a>
-                    <p>A 65% custom keyboard with a knob! Features include hot-swappable gateron yellow switches, pbt double-shot keycaps, and a 3d printed case + plate.</p>
-                    <img src="Images/Ninjaboard65-ZINE(irl).png" alt="Ninjaboard65" class="project-image">
-                </div>
 
-                <div class="project-card">
-                    <a href="https://github.com/Ninjadude01/NinjaArm"><center>NinjaArm</center></a>
-                    <p>NinjaArm is a custom robotic arm with 3 degrees of freedom + a claw. It uses an Arduino Uno along with a servo board, 3 servos, 1 micro servo, and 4 potentiometers to control rotation.</p>
-                        <img src="Images/NinjaArm-Full.png" alt="NinjaArm" class="project-image">
-                        <img src="Images/Bottom-view.png" alt="Bottom View" class="project-image">
-                </div>
+    <!-- Social Media Links -->
+    <section id="socials">
+        <h1>Socials</h1>
+        <a href="https://github.com/Ninjadude01"><h2>GitHub</h2></a>
+        <a href="https://www.instagram.com/ninjadude613/"><h2>Instagram</h2></a>
+        <a href="https://discord.com/users/909552256804880414"><h2>Discord</h2></a>    
+    </section>
 
-                <div class="project-card">
-                    <a href="https://github.com/Ninjadude01/Ninjapad-V2"><center>NinjapadV2</center></a>
-                    <p>The Ninjapad-V2 is a wireless macropad with 6 switches, a customizable knob, and a 0.91" oled display! It is fully hot-swappable, uses a 3.7V 600mAh rechargable lithium battery, and has mini-leds.</p>
-                    <img src="Images/NinjapadV2-Zine.png" alt="NinjapadV2" class="project-image">
-                </div>
-            </div>
-        </section>
-
-        <section id="socials">
-            <h2>Socials</h2>
-            <a href="https://github.com/Ninjadude01">GitHub</a>
-            <a href="https://www.instagram.com/ninjadude613/">Instagram</a>
-            <a href="https://discord.com/users/909552256804880414">Discord</a>
-
-      
-        </section>
-    </body>
-
-
+</body>
 </html>

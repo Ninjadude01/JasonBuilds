@@ -1,55 +1,33 @@
 @font-face {
     font-family:CoolFont;
-    src: url(Assets/Motivate.otf);
+    src: url(Assets/Lato-Regular.ttf);
 }
 
-.panel {
+.banner {
     height: auto;
-    width: 100%;
     background-color: rgb(1, 189, 251);
     font-family: 'CoolFont', sans-serif;
     padding: 1%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.navbar {
+    font-family: 'CoolFont', sans-serif;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(0, 176, 235);
 }
 
-nav {
-    white-space: pre-wrap;
-    flex: 1 1 280px;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
+.proj {
+    font-family: 'CoolFont', sans-serif;
+    display:flex;
+    justify-content: space-around;
 }
 
 
-.project-grid {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+.img {
+    width: 30%;
+} 
 
-.project-card {
-    white-space: pre-wrap;
-    flex: 1 1 280px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.project-image {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-top: 0px;
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10px;
-}
 
 body {
     font-family: 'CoolFont', sans-serif;

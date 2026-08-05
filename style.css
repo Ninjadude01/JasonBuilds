@@ -1,14 +1,20 @@
 @font-face {
-    font-family:CoolFont;
-    src: url(Assets/Lato-Regular.ttf);
+    font-family: CoolFont;
+    font-color: #e41818;
+    src: url(Assets/SK.otf);
 }
 
 body {
     font-family: 'CoolFont', sans-serif;
-    background-color: lightblue;
-    padding:2%;
+    background-size: cover;
+    padding:0%;
 }
 
+.bgIMG{
+    background-image: url("Images/blueBG2.jpg");
+    width: 100%;
+    height: auto;
+}
 .banner {
     height: auto;
     background-color: rgb(1, 189, 251);
@@ -21,7 +27,6 @@ body {
     display:flex;
     justify-content: space-around;
     background-color: rgb(0, 176, 235);
-    padding: 0%;
 }
 
 .ALLproj {
@@ -44,14 +49,12 @@ body {
     display:flex;
     justify-content: space-around;
     background-color: rgb(1, 189, 251);
-    padding: 0%;
 }
 
 .song {
     font-family: 'CoolFont', sans-serif;
     display:flex;
     justify-content: space-around;
-    padding: 0%;
 
 }
 

@@ -8,40 +8,50 @@ body {
     background-size: cover;
     padding:0%;
     margin:0;
-    color: #ffffff;
-
+    color: #ebf2fa;
+    background-color: #427aa1;
 }
 
+/*
 .bgIMG{
-    background-image: url("Images/blueBG2.jpg");
-    width: 100%;
-    height: auto;
+    /*background-image: url("Images/blueBG2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+*/
+
 .banner {
     height: auto;
-    background-color: rgb(1, 189, 251);
+    background-color: #064789;
     font-family: 'CoolFont', sans-serif;
-    padding: 1%;
+    margin: 0% auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFD700;
 }
 
 .navbar {
     font-family: 'CoolFont', sans-serif;
     display:flex;
     justify-content: space-around;
-    background-color: rgb(0, 176, 235);
+    background-color: #064789;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 70%;
+    margin:0 auto;
 }
 
 .ALLproj {
     font-family: 'CoolFont', sans-serif;
     display:flex;
     justify-content: space-around;
-
 }
 
 .proj {
     width: 30%;
 }
-
 
 .img {
     width: 100%;
@@ -51,14 +61,13 @@ body {
     font-family: 'CoolFont', sans-serif;
     display:flex;
     justify-content: space-around;
-    background-color: rgb(1, 189, 251);
+    background-color: #064789;
 }
 
 .song {
     font-family: 'CoolFont', sans-serif;
     display:flex;
     justify-content: space-around;
-
 }
 
 .PERimg {
@@ -71,22 +80,55 @@ body {
     margin: 0 auto;
 }
 
+.quote{
+    font-family: 'CoolFont', sans-serif;
+    background-color: #064789;
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    margin: 3% auto;
+    padding: 10px;
+    margin-bottom: 0;
+    }
+
+.welcome{
+    font-family: 'CoolFont', sans-serif;
+    background-color: #064789;
+    border-radius: 0px;
+    width: 95%;
+    height: auto;
+    margin: 3% auto;
+    padding: 10px;
+    margin-bottom: 0;
+    }
+
+.txt {
+    font-family: 'CoolFont', sans-serif;
+    color: #FFD700;
+    font-size: 250%;
+    }
+
+.main {
+    font-family: 'CoolFont', sans-serif;
+    color: #ffffff;
+    font-size: 100%;
+    }    
 /*link color*/
 a:link {
-  color: #1a73e8;
+    color: #FFD700;
 }
 
 /* Visited link */
 a:visited {
-  color: #6a0dad;
+    color: #FFD700;
 }
 
 /* Mouse over link */
 a:hover {
-  color: #03fb45;
+    color: #FFD700;
 }
 
 /* Selected/clicked link */
 a:active {
-  color: #008000;
+    color: #FFD700;
 }

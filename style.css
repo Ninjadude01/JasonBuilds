@@ -27,9 +27,13 @@ body {
     background-color: #064789;
     font-family: 'CoolFont', sans-serif;
     margin: 0% auto;
+    padding: 2%;
     border-style: solid;
     border-width: 5px;
-    border-color: #FFD700;
+    border-color: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 .navbar {
@@ -37,10 +41,17 @@ body {
     display:flex;
     justify-content: space-around;
     background-color: #064789;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 70%;
-    margin:0 auto;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 50%;
+    margin: top 10%;;
+    margin: 0 auto;
+    padding: 1%;
+    border-style: solid;
+    border-width: 5px;
+    border-top-width: 0px;
+    border-color: #ffffff;
 }
 
 .ALLproj {
@@ -89,30 +100,57 @@ body {
     margin: 3% auto;
     padding: 10px;
     margin-bottom: 0;
-    }
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff;
+    font-size: 150%;
+}
 
 .welcome{
     font-family: 'CoolFont', sans-serif;
     background-color: #064789;
-    border-radius: 0px;
-    width: 95%;
+    border-radius: 10px;
+    width: 60%;
     height: auto;
-    margin: 3% auto;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 1%;
     margin-bottom: 0;
-    }
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff;
+}
+
+.title {
+    font-family: 'CoolFont', sans-serif;
+    color: #ffffff;
+    font-size: 300%;
+    font-weight: bold;
+}
 
 .txt {
     font-family: 'CoolFont', sans-serif;
-    color: #FFD700;
-    font-size: 250%;
-    }
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: bolder;
+}
 
+.navtxt {
+    font-family: 'CoolFont', sans-serif;
+    color: #FFD700;
+    font-size: 200%;
+    font-weight: bolder;
+}
 .main {
     font-family: 'CoolFont', sans-serif;
     color: #ffffff;
-    font-size: 100%;
-    }    
+    font-size: 130%;
+    padding:1%;
+}    
+
+.audioBox {
+    margin-left:21%;
+}
+
 /*link color*/
 a:link {
     color: #FFD700;

@@ -48,7 +48,7 @@
     color: #ffffff;
     font-size: 200%;
     font-weight: bolder;
-    padding:10%;
+    padding: 20px;
 }
 
 
@@ -214,61 +214,6 @@ body {
 
 
 
-/*Projects Section*/
-.ALLproj {
-    font-family: 'CoolFont', sans-serif;
-    display:flex;
-    justify-content: space-around;
-}
-
-.textBoxProj{
-    font-family: 'CoolFont', sans-serif;
-    background-color: #064789;
-    border-radius: 10px;
-    width: 500px;
-    height: 100px;
-    margin: 20px auto;
-    padding: 2%;
-    margin-bottom:10px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFD700;
-}
-
-.proj{
-    font-family: 'CoolFont', sans-serif;
-    background-color: #064789;
-    border-radius: 10px;
-    width: 80%;
-    height: auto;
-    margin: 20px auto;
-    padding: 1%;
-    margin-bottom: 0;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFD700;
-    width: 30%;
-}
-
-.img {
-    width: 100%;
-    border-radius: 10px;
-} 
-
-.ArmTopImg {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-} 
-
-.ArmBottomImg {
-    width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-} 
-
-
-
 /*About me Section*/
 .textBoxAbout{
     font-family: 'CoolFont', sans-serif;
@@ -279,6 +224,19 @@ body {
     margin: 20px auto;
     padding: 1%;
     margin-bottom: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFD700;
+}
+
+.textBoxEvent{
+    font-family: 'CoolFont', sans-serif;
+    background-color: #064789;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    margin: 40px auto;
+    padding: 1%;
     border-style: solid;
     border-width: 5px;
     border-color: #FFD700;
@@ -334,6 +292,61 @@ body {
     border-width: 5px;
     border-color: #FFD700;
 }
+
+
+
+/*Projects Section*/
+.ALLproj {
+    font-family: 'CoolFont', sans-serif;
+    display:flex;
+    justify-content: space-around;
+}
+
+.textBoxProj{
+    font-family: 'CoolFont', sans-serif;
+    background-color: #064789;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 2%;
+    margin-bottom:10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFD700;
+}
+
+.proj{
+    font-family: 'CoolFont', sans-serif;
+    background-color: #064789;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 1%;
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFD700;
+    width: 30%;
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px;
+} 
+
+.ArmTopImg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+
+.ArmBottomImg {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
 
 
 

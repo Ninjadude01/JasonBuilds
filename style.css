@@ -3,6 +3,57 @@
     src: url(Assets/SK.otf);
 }
 
+
+
+/*Fonts*/
+.main {
+    font-family: 'CoolFont', sans-serif;
+    color: #ffffff;
+    font-size: 130%;
+    padding:1%;
+}    
+
+.title {
+    font-family: 'CoolFont', sans-serif;
+    color: #FFD700;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.txt {
+    font-family: 'CoolFont', sans-serif;
+    color: #FFD700;
+    font-size: 200%;
+    font-weight: bolder;
+    padding:1%;
+}
+
+.navtxt {
+    font-family: 'CoolFont', sans-serif;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.link {
+    font-family: 'CoolFont', sans-serif;
+    display:flex;
+    justify-content: space-around;
+    margin: 0% auto;
+    padding: 0%;
+}
+
+.LinkTxt {
+    font-family: 'CoolFont', sans-serif;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: bolder;
+    padding:10%;
+}
+
+
+
+/*Top of website*/
 body {
     font-family: 'CoolFont', sans-serif;
     background-size: cover;
@@ -53,40 +104,22 @@ body {
     border-color: #FFD700;
 }
 
-.ALLproj {
-    font-family: 'CoolFont', sans-serif;
+
+
+/*Home Page*/
+.songAndImg{
     display:flex;
-    justify-content: space-around;
-}
-
-.img {
-    width: 100%;
-} 
-
-.socials {
-    font-family: 'CoolFont', sans-serif;
-    background-color: #064789;
-    border-radius: 50px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    width: auto;
-    height: auto;
-    margin: 20px auto;
-    padding: 1%;
-    margin-bottom: 0;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFD700;
 }
 
 .song {
     font-family: 'CoolFont', sans-serif;
     background-color: #064789;
     border-radius: 10px;
-    width: 30%;
-    height: auto;
-    margin:2%;
-    margin-left: 10%;
+    width: 20%;
+    height: 30%;
+    margin-top: 2%;
+    margin-right:2%;
+    margin-left: 18.5%;
     padding: 1%;
     border-style: solid;
     border-width: 5px;
@@ -104,22 +137,63 @@ body {
     margin: 10% auto;
 }
 
-.gardenIMG {
-    width:50%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
+.audioBox {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom:10%;
+}
+
+.perTxt {
+    font-family: 'CoolFont', sans-serif;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.gardenBox {
+    width: 38%;
+    height:30%;
     border-color: #FFD700;
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
-    display:flex;
-    margin: 0% auto;
+    margin-top: 2%;
+    margin-left: 0% auto;
+    background-color: #064789;
+    display:grid;
+    place-items: center;    
 }
 
-.songAndImg{
-    display:flex;
-    justify-content: space-around;
+.garImg {
+    width: 100%;
+    border-radius: 10px;
+    border-top-width: 0px;
+    border-bottom-width: 5px;
+    border-color:#FFD700;
+    border-style: solid;
+} 
 
+.garTxt{
+    font-family: 'CoolFont', sans-serif;
+    color: #ffffff;
+    font-size: 130%;
+    padding: 6%;
+    font-weight: bold;
+}
+
+.textBox{
+    font-family: 'CoolFont', sans-serif;
+    background-color: #064789;
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+    padding: 1%;
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFD700;
 }
 
 .quote{
@@ -138,47 +212,13 @@ body {
     font-size: 150%;
 }
 
-.textBox{
-    font-family: 'CoolFont', sans-serif;
-    background-color: #064789;
-    border-radius: 10px;
-    width: 60%;
-    height: auto;
-    margin: 20px auto;
-    padding: 1%;
-    margin-bottom: 0;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFD700;
-}
 
-.textBoxAbout{
-    font-family: 'CoolFont', sans-serif;
-    background-color: #064789;
-    border-radius: 10px;
-    width: 80%;
-    height: auto;
-    margin: 20px auto;
-    padding: 1%;
-    margin-bottom: 0;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFD700;
-}
 
-.textBoxTravel{
+/*Projects Section*/
+.ALLproj {
     font-family: 'CoolFont', sans-serif;
-    background-color: #064789;
-    border-radius: 10px;
-    width: 30%;
-    height: auto;
-    margin: 20px auto;
-    padding: 1%;
-    margin-bottom: 0;
-    margin-left: 8.5%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFD700;
+    display:flex;
+    justify-content: space-around;
 }
 
 .textBoxProj{
@@ -210,57 +250,94 @@ body {
     width: 30%;
 }
 
-.title {
+.img {
+    width: 100%;
+    border-radius: 10px;
+} 
+
+.ArmTopImg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+
+.ArmBottomImg {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+
+
+/*About me Section*/
+.textBoxAbout{
     font-family: 'CoolFont', sans-serif;
-    color: #FFD700;
-    font-size: 300%;
-    font-weight: bold;
+    background-color: #064789;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 1%;
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFD700;
 }
 
-.txt {
-    font-family: 'CoolFont', sans-serif;
-    color: #FFD700;
-    font-size: 200%;
-    font-weight: bolder;
-    padding:1%;
+.HackHorizontal {
+    display:flex;
+    justify-content: center;
+    margin:3% auto;
 }
 
-.navtxt {
-    font-family: 'CoolFont', sans-serif;
-    color: #ffffff;
-    font-size: 200%;
-    font-weight: bolder;
+.HackBox {
+    width: 45%;
+    height:auto;
+    border-color: #FFD700;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #064789;
+    display:grid;
+    place-items: center; 
+    margin:1%;
 }
 
-.main {
+.HackImg {
+    width:100%;
+    border-radius: 10px;
+    border-bottom-width:5px;
+    border-color: #FFD700;
+    border-style: solid;
+}
+
+.HackTxt{
     font-family: 'CoolFont', sans-serif;
     color: #ffffff;
     font-size: 130%;
-    padding:1%;
-}    
-
-.audioBox {
-    display:flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom:10%;
+    padding: 6%;
+    font-weight: bold;
 }
 
-.perTxt {
+.socials {
     font-family: 'CoolFont', sans-serif;
-    color: #ffffff;
-    font-size: 200%;
-    font-weight: bolder;
+    background-color: #064789;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: auto;
+    height: auto;
+    margin: 20px auto;
+    padding: 1%;
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFD700;
 }
 
-.link {
-    font-family: 'CoolFont', sans-serif;
-    display:flex;
-    justify-content: space-around;
-    margin: 0% auto;
-    padding: 0%;
-}
 
+
+/*Links*/
 /*link color*/
 a:link {
     color: #FFD700;
